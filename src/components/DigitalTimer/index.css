@@ -1,0 +1,131 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(#ffffff, #cffcf1);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Title-name {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.clock-Operations-container {
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock-display-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 280px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Timer-Running-opp-card {
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Timer {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #00d9f5;
+  line-height: 0px;
+}
+.Is-Running {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+  line-height: 0px;
+}
+.clock-operations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pause-start-reset-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-start-resume-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.titles-are {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.description {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.plus-minus {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.time-indicates-card {
+  height: 28px;
+  width: 60px;
+  background-color: #00d9f5;
+  border-radius: 10px;
+  color: #1e293b;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 10px;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .clock-Operations-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Title-name {
+    font-size: 35px;
+  }
+  .clock-display-container {
+    width: 380px;
+    height: 400px;
+  }
+}
